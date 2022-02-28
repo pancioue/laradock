@@ -38,8 +38,9 @@ docker-compose up -d nginx phpmyadmin
 
 若遇到
 ERROR [internal] load metadata  
-可參閱 https://learnku.com/laravel/t/60298  
-注意 **platform** 可能是關鍵字
+可能是m1的問題，注意 **platform** 可能是關鍵字  
+可在`docker-compose`加上 `platform: linux/x86_64`  
+參閱 https://learnku.com/laravel/t/60298  
 
 
 # 建立專案
